@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "allowImportingTsExtensions": true,
+        "module": "CommonJS",
+        "outDir": "dist",
+        "rootDir": "src",
+        "strict": true
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

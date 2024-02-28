@@ -1,0 +1,20 @@
+{
+  "name": "x-ts-leetcode",
+  "version": "1.0.0",
+  "description": "每周一道算法题",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -w -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
